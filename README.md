@@ -1,4 +1,4 @@
 4chan-Tripcode-Tester
 =====================
 
-A script that will display tripcodes
+This is a simple script to display tripcodes. However, there is one unique thing. The output will be stylized as a futaba post!
