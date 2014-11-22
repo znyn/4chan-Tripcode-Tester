@@ -1,0 +1,60 @@
+body {
+	background: #eef2ff url('fade-blue.png') repeat-x 50% 0%;
+}
+
+/* Main css for the post */
+.post {
+ background-color: #f0e0d6;
+ padding-bottom: 5px;
+ padding-left: 5px;
+ padding-top: 5px;
+ width: 385px;
+}
+
+/* The padding inside the post */
+.wrap {
+ padding-left: 6px;
+}
+/* Form style */
+form    {
+ font-family: sans-serif;
+ font-size: 14px;
+ color: #000;
+ margin-top: -9px;
+ padding-left: 6px;
+ }
+ /* The header style */
+ h1.header {
+ font-family: tahoma;
+  letter-spacing: -2px;
+  font-size: 20pt;
+  margin: 0;
+  color: #af0a0f;
+  text-align: center;
+}
+/* Formatting the label like Yostuba B (4chan) */
+p.box {
+	background-color: #9988ee;
+	border: 1px solid #000;
+	padding-left: 5px;
+	padding-bottom: 3px;
+	padding-right: 40px;
+	padding-top: 3px;
+	display: inline;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #800000;
+}
+a:hover {
+	text-decoration: none;
+	color: red;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #800000;
+}
