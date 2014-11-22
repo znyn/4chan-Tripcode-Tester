@@ -6,10 +6,6 @@
 <br>
 </head>
 <body>
-
-
-
-</body>
 <p style="font-family: verdana;">Output:</p>
 <?php
 // Generates a random number for the post number between 11,000 and 99,000
@@ -37,4 +33,5 @@ echo 'This is a tripcode test.' . '</span></div>';
 ?>
 <br>
 <p><a href="index.html" style="color: blue; font-family: verdana;"><u>Want to try again?</u></a></p>
+</body>
 </html>
