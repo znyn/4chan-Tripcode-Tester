@@ -9,7 +9,7 @@
 <p style="font-family: verdana;">Output:</p>
 <?php
 // Generates a random number for the post number between 11,000 and 99,000
-$postnumber = rand(11111,999999);
+$postnumber = rand(1,600000000);
 $min = rand(10,59);
 $hour = rand(10,23);
 function tripcode($plain)
@@ -28,7 +28,7 @@ echo '<span style="color: green;">!' . tripcode($_POST["tripcode"]) . '</span>';
 // This displays the date and random post number
 echo '<span style="color: #800000;"> 10/10/03(Fri)' . $hour . ':' . $min . ' <a href="#">No.</a><a href="#">' . $postnumber . '</a><br><br>';
 // The text inside the post
-echo 'This is a tripcode test.' . '</span></div>';
+echo 'This is a tripcode test.' . '</span></div><br><br>';
 
 ?>
 <br>
